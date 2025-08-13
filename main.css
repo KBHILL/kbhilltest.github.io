@@ -1,0 +1,18 @@
+/* Define the animation */
+@keyframes color-switch {
+  0% {
+    color: red; /* Starting color */
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: blue; /* Ending color */
+  }
+}
+
+/* Apply the animation to your text container */
+.color-changing-text span {
+  animation: color-switch 3s infinite normal; /* Adjust duration and iteration as needed */
+  /* Other styles like font-size, etc. */
+}
